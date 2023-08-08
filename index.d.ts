@@ -149,6 +149,7 @@ export interface SectionedMultiSelectProps<ItemType> {
     check: IconProps
     cancel: IconProps
   }>
+  onPressChip?: (item) => void
 }
 export default class SectionedMultiSelect<ItemType> extends React.Component<
   SectionedMultiSelectProps<ItemType>
